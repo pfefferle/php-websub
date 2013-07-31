@@ -1,0 +1,26 @@
+{
+  "name": "Push",
+  "description": "Client library for sending pubsubhubbub requests",
+  "type": "library",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/pfefferle/php-push",
+  "authors": [
+    {
+      "name": "Matthias Pfefferle",
+      "email": "pfefferle@gmail.com",
+      "homepage": "http://notizblog.org/"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Push": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  }
+}
